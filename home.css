@@ -1,0 +1,36 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: linear-gradient(to right, #0A0068, #26007B, #42008D, #5E00A0, #7A00B2);
+	margin: 0;
+}
+
+div.optionContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	gap: 2vh;
+}
+
+input.inputField {
+	width: 40vw;
+	height: 5vh;
+	font-size: 100%;
+	background: transparent;
+	border: transparent;
+	color: white;
+	padding: 10px;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+button.action {
+	width: 10vw;
+	height: 100%;
+	font-size: 100%;	
+	cursor: pointer;
+	margin-left: 1vw;
+}
